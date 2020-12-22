@@ -2,15 +2,15 @@
 
 #Import Modules
 
-import time
-import pandas as pd
-import openpyxl
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from bs4 import BeautifulSoup 
-from requests_html import HTMLSession, HTML
-from lxml.etree import ParserError
-from credential import url
+<p>import time </p>
+<p>import pandas as pd</p>
+<p>import openpyxl</p>
+<p>from selenium import webdriver</p>
+<p>from selenium.webdriver.chrome.options import Options</p>
+<p>from bs4 import BeautifulSoup </p>
+<p>from requests_html import HTMLSession, HTML</p>
+<p>from lxml.etree import ParserError</p>
+<p>from credential import url</p>
 
 #function to scroll from 0 position to end position
 def scroll_to_bottom(driver):

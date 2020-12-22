@@ -1,16 +1,19 @@
 ﻿﻿# Youtube Scraper
 
-#Import Modules
+Scrape Youtube Page without an API key. 
 
-import time 
-import pandas as pd
-import openpyxl
+#to find html tags and use them to scrape data
+from bs4 import BeautifulSoup 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from bs4 import BeautifulSoup 
-from requests_html import HTMLSession, HTML
-from lxml.etree import ParserError
-from credential import url
+
+#to Convert a Python's list, dictionary or Numpy array to a Pandas data frame.
+import pandas as pd 
+
+#to Convert a Pandas data frame to Excel File.
+import openpyxl
+
+
 
 #function to scroll from 0 position to end position
 def scroll_to_bottom(driver):
